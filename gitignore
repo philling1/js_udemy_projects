@@ -1,0 +1,4 @@
+# Ignore comments in JavaScript files
+# Matches both single line comments (//) and multi-line comments (/**/)
+# Replace '//' with the comment symbol used in your code if different
+*.js //
