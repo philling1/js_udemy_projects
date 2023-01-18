@@ -12,7 +12,12 @@
   - DOM and and code optimization
   - Simple validation and error messages
   - Skeleton Frontend framework CDN
-- Booklist: OOP
+- Booklist: 
+  - Object Oriented Programming:
+    - ESC5 Protype Methods and constructors
+    - Esc6 Classes and constructors
+    - ESC6 static methods
+  - Local Storage and DOM traversing
 - EasyHttp3: Ajax, Fetch, Async/Await
 - Github Finder: API
 - WeatherJS: API
