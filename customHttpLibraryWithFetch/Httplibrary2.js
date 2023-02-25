@@ -8,7 +8,6 @@
  */
 
 class EasyHTTP2{
-  //We don't need a constructor because we will not  be using the xhr object that we used when with Ajax
   //Then going to making Http request
   //get(url){
   //  //without a promise
@@ -17,8 +16,6 @@ class EasyHTTP2{
   //  .then(data => console.log(data))
   //  .catch(err => console.log(err));
   //}
-
-  //Doing it in synchronous by using the return statemet instead console loging them
   get(url){
     //with a promise
     return new Promise((resolve, reject) => {
@@ -31,7 +28,6 @@ class EasyHTTP2{
 
   //Make an Http POST Request
   post(url, data){
-    //with a promise
     return new Promise((resolve, reject) => {
       fetch(url, {
         method: 'POST',
@@ -48,7 +44,6 @@ class EasyHTTP2{
 
   //Make an HTTP PUT Request
   put(url, data){
-    //with a promise
     return new Promise((resolve, reject) => {
       fetch(url, {
         method: 'PUT',
@@ -65,7 +60,6 @@ class EasyHTTP2{
 
   //Make an HTTP DELETE Request
   delete(url){
-    //with a promise
     return new Promise((resolve, reject) => {
       fetch(url, {
         method: 'DELETE',

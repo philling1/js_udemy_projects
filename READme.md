@@ -18,8 +18,20 @@
     - Esc6 Classes and constructors
     - ESC6 static methods
   - Local Storage and DOM traversing
-- EasyHttp3: Ajax, Fetch, Async/Await
-- Github Finder: API
+- CustomHttpLibraries:
+  - easyhttp1:
+    - Using Esc5 Prototype methods and    Callbacks
+    - Ajax and XHR to make Request
+    - test with Restful API called  JSONplaceholder
+  - easyhttp2:
+    - Using Esc6 Classes and Promises
+    - Using Fetch to make Request
+  - easyhttp3:
+    - Using Esc6 Classes and Async/Await and Fetch
+- Github Finder:
+  - Bootstrap4 and Bootswatch CDN for the UI
+  - Async/Await
+  - Fetch with Github API
 - WeatherJS: API
 - Profile Scroller: Generators
 - Tracalorie: Module Pattern

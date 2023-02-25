@@ -8,7 +8,6 @@
  */
 
  class EasyHTTP3{
-
   //Make  an HTTP Get Request
   async get(url){
     const response = await fetch(url);
